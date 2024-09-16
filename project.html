@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects - Hana Aman</title>
+  <meta name="description" content="Showcase of projects by Hana Aman. Explore my work and learn more about each project.">
+  <meta name="keywords" content="Hana Aman, Full Stack Developer, Projects, Portfolio">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- Custom CSS for Navigation and Footer -->
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      background-color: #6c757d; /* Secondary color for body background */
+    }
+
+    header {
+      background-color: #6c757d; /* Same as body background */
+    }
+
+    #navmenu {
+      display: flex;
+      justify-content: flex-end;
+      padding: 15px;
+    }
+
+    #navmenu ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+    }
+
+    #navmenu ul li {
+      margin: 0 10px;
+    }
+
+    #navmenu ul li p {
+      margin: 0;
+      color: #151414;
+      padding: 10px 15px;
+      display: block;
+      transition: background-color 0.3s ease;
+    }
+
+    #navmenu ul li p a {
+      color: inherit; /* Inherit color from parent <p> */
+      text-decoration: none; /* Ensure no underline */
+    }
+
+    #main {
+      padding-top: 60px; /* Adjust to accommodate fixed header */
+      padding-bottom: 60px; /* Space for footer */
+    }
+
+    .page-title {
+      color: #100e0e;
+      padding: 60px 0;
+      text-align: center;
+    }
+
+    .projects {
+      padding: 20px 0;
+      display: flex;
+      justify-content: center; /* Center the projects section */
+    }
+
+    .project-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      padding: 10px;
+      margin-bottom: 30px;
+      background: #929191;
+      text-align: center;
+      width: 400px;
+      justify-content: space-around;
+      align-content: center;
+    }
+
+    .project-content img {
+      width: 300px; /* Smaller images */
+      height: 200px; /* Control the height of the image */
+      object-fit: cover;
+      border-radius: 8px;
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+
+    .project-content p {
+      font-size: 16px; /* Set font size for project descriptions */
+      margin: 10px 0;
+    }
+
+    .footer {
+      background-color: #343a40; /* Dark background for footer */
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .footer a {
+      color: #007bff;
+      text-decoration: none; /* Remove underline from footer links */
+    }
+
+    .footer a:hover {
+      text-decoration: underline;
+    }
+
+    /* Custom button styles */
+    .btn-custom {
+      background-color: #007bff; /* Background color */
+      color: #fff; /* Text color */
+      border: none; /* Remove border */
+      border-radius: 5px; /* Rounded corners */
+      padding: 10px 20px; /* Padding to make the button larger */
+      font-size: 16px; /* Font size for better readability */
+      text-align: center; /* Center text alignment */
+      display: inline-block; /* Ensure button behaves like a block element */
+      cursor: pointer; /* Pointer cursor */
+      transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition for hover effects */
+      text-decoration: none; /* Remove underline from link */
+    }
+
+    .btn-custom:hover {
+      background-color: #0056b3; /* Darker background color on hover */
+      color: #f8f9fa; /* Light text color on hover */
+    }
+
+    .projects .row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .projects .col-lg-4, .projects .col-md-6 {
+      flex: 1;
+      min-width: calc(33.333% - 20px); /* Adjust width for 3 items per row */
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-end p-5">
+      <nav id="navmenu">
+        <ul>
+          <li><p><a href="index.html">Home</a></p></li>
+          <li><p><a href="about.html">About</a></p></li>
+          <li><p><a href="project.html">Projects</a></p></li>
+          <li><p><a href="services.html">Services</a></p></li>
+          <li><p><a href="contact.html">Contact</a></p></li>
+        </ul>
+      </nav>
+    </div>
+  </header><!-- End Header -->
+
+  <!-- Main Content -->
+  <main id="main">
+
+    <!-- Page Title -->
+    <section id="page-title" class="page-title">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <h1>Projects</h1>
+            <p class="mb-0">Explore my work and the projects I've completed. Each project showcases different skills and technologies I've used.</p>
+          </div>
+        </div>
+      </div>
+    </section><!-- End Page Title -->
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+      <div class="container">
+        <div class="row">
+
+          <!-- Project 1 -->
+          <div class="col-lg-4 col-md-6">
+            <div class="project-item">
+              <div class="project-content">
+                <img src="Screenshot 2024-09-15 220857.png" alt="Project 1">
+                <h3>Project Title 1</h3>
+                <p>Brief description of the project goes here. Explain what the project is about, the problem it solves, and any unique features.</p>
+                <p><strong>Technologies:</strong> HTML, CSS, Bootstrap</p>
+                <a href="https://github.com/username/project1" class="btn-custom" target="_blank">View on GitHub</a>
+              </div>
+            </div>
+          </div><!-- End Project 1 -->
+
+          <!-- Project 2 -->
+          <div class="col-lg-4 col-md-6">
+            <div class="project-item">
+              <div class="project-content">
+                <img src="Screenshot 2024-09-15 220614.png" alt="Project 2">
+                <h3>Project Title 2</h3>
+                <p>Brief description of the project goes here. Explain what the project is about, the problem it solves, and any unique features.</p>
+                <p><strong>Technologies:</strong> HTML, CSS, Bootstrap</p>
+                <a href="https://github.com/username/project2" class="btn-custom" target="_blank">View on GitHub</a>
+              </div>
+            </div>
+          </div><!-- End Project 2 -->
+
+          <!-- Add more projects as needed -->
+
+        </div>
+      </div>
+    </section><!-- End Projects Section -->
+
+  </main><!-- End Main Content -->
+
+  <footer class="footer text-white text-center py-3 mt-4">
+    <p>&copy; 2024 Hana Aman. All Rights Reserved.</p>
+  </footer><!-- End Footer -->
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

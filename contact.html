@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact - Hana Aman</title>
+  <meta name="description" content="Contact Hana Aman for inquiries and collaborations">
+  <meta name="keywords" content="Contact, Hana Aman, Web Development">
+
+  
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+
+  
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      background-color: #6c757d; 
+    }
+
+    #header {
+      color: #151516;
+      padding: 10px 0;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 1000;
+      background-color: #6c757d;
+    }
+
+    #navmenu {
+      display: flex;
+      justify-content: flex-end;
+      padding: 0 20px; 
+    }
+
+    #navmenu ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+    }
+
+    #navmenu ul li {
+      margin: 0 10px;
+    }
+
+    #navmenu ul li a {
+      text-decoration: none;
+      color: #111111;
+      padding: 10px 15px;
+      display: block;
+      transition: background-color 0.3s ease;
+    }
+
+ 
+
+    .page-title {
+      color: #111010;
+      padding: 60px 0;
+      text-align: center;
+    }
+
+    .contact {
+      padding: 20px 0;
+      display: flex;
+      justify-content: center;
+    }
+
+    .contact form .form-control {
+      background-color: #b4b6b7;
+      color: black;
+      border: 1px solid #6c757d;
+      width: 600px;
+      border-radius: 9px;
+      height: 50px;
+      padding: 3px;
+      margin: 10px;
+    }
+
+    .contact form .form-control::placeholder {
+      color: #151516; 
+    }
+
+    .contact-info {
+      margin: 8px;
+    }
+
+    .contact-info p {
+      margin: 0 0 10px;
+    }
+
+    .contact-info a {
+      color: #007bff;
+      text-decoration: none;
+    }
+
+    .contact-info a:hover {
+      text-decoration: underline;
+    }
+
+    .btn {
+      background: #3d3b3b;
+      cursor: pointer;
+      border: none;
+      height: 50px;
+      border-radius: 5px;
+    }
+
+    .social-links a {
+      color: #007bff;
+      text-decoration: none;
+    }
+
+    .social-links a:hover {
+      color: #0056b3;
+    }
+
+    .footer {
+      background-color: #343a40; 
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .footer a {
+      color: #007bff;
+      text-decoration: none;
+    }
+
+    .footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+
+<body>
+
+
+  <header id="header">
+    <div class="container-fluid container-xl  d-flex align-items-center justify-content-end p-4">
+      <nav id="navmenu">
+        <ul>
+          <li><a class="text-dark" href="index.html">Home</a></li>
+          <li><a class="text-dark" href="about.html">About</a></li>
+          <li><a class="text-dark" href="project.html">Project</a></li>
+          <li><a class="text-dark" href="services.html">Services</a></li>
+          <li><a class="text-dark active" href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+
+  <main id="main">
+    
+    <section class="page-title">
+      <div class="container">
+        <h1>Contact</h1>
+        <p>Get in touch with me for any inquiries or collaborations. I'll be happy to hear from you!</p>
+      </div>
+    </section>
+
+    
+    <section id="contact" class="contact">
+      <div class="container">
+        <div class="row g-4">
+          
+          <div class="col-lg-6">
+            <h3>Send Me a Message</h3>
+            <form action="mailto:hanaaman921@gmail.com" method="post" enctype="text/plain">
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <input type="text" name="name" class="form-control" placeholder="Your Name" required>
+                </div>
+                <div class="col-md-6">
+                  <input type="email" name="email" class="form-control" placeholder="Your Email" required>
+                </div>
+                <div class="col-12">
+                  <input type="text" name="subject" class="form-control" placeholder="Subject">
+                </div>
+                <div class="col-12">
+                  <textarea name="message" class="form-control" placeholder="Message" rows="5" required></textarea>
+                </div>
+                <div class="col-12">
+                  <button type="submit" class="btn btn-dark">Send Message</button>
+                </div>
+              </div>
+            </form>
+          </div>
+
+      
+          <div class="col-lg-6">
+            <h3>Contact Information</h3>
+            <p><i class="bi bi-geo-alt"></i> Addis Ababa, Ethiopia</p>
+            <p><i class="bi bi-envelope"></i> <a href="mailto:hanaaman921@gmail.com">hanaaman921@gmail.com</a></p>
+            <p><i class="bi bi-phone"></i> +251949447070</p>
+            <div class="social-links d-flex gap-3">
+              <a href="https://twitter.com/username" class="twitter" target="_blank"><i class="bi bi-twitter"></i></a>
+              <a href="https://facebook.com/username" class="facebook" target="_blank"><i class="bi bi-facebook"></i></a>
+              <a href="https://instagram.com/username" class="instagram" target="_blank"><i class="bi bi-instagram"></i></a>
+              <a href="https://linkedin.com/in/username" class="linkedin" target="_blank"><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+
+  <footer class="footer text-white text-center py-3 mt-4">
+    <p>&copy; 2024 Hana Aman. All Rights Reserved.</p>
+  </footer>
+
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+
+  
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
